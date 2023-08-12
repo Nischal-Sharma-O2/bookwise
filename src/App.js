@@ -12,7 +12,7 @@ import Dashboard from "./pages/dashboard";
 function PagePath() {
   const location = useLocation();
   const hideNavbarAndFooter = location.pathname === "/dashboard" || location.pathname === "/admin";
-
+  
   return (
     <>
       {!hideNavbarAndFooter && <Navbar />}
