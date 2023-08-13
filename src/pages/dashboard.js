@@ -54,6 +54,14 @@ export default function Dashboard() {
               </a>
             </div>
         </main>
+        <div className="sales">
+              <h3>Weekly Sales</h3>
+              <h1>$ 520</h1>
+        </div>
+        <div className="orders">
+              <h3>Weekly Orders</h3>
+              <h1>50</h1>
+        </div>
       </div>
     </>
   );
