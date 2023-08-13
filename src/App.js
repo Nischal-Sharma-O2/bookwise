@@ -14,7 +14,7 @@ import Register from "./pages/register";
 function PagePath() {
   const location = useLocation();
   const hideNavbarAndFooter = location.pathname === "/register" || location.pathname === "/dashboard" || location.pathname === "/admin" || location.pathname === "/login";
-
+  
   return (
     <>
       {!hideNavbarAndFooter && <Navbar />}
