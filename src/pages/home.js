@@ -1,7 +1,9 @@
+import Slider from "../components/imageslide/Slider"
+
 export default function Home() {
   return (
-    <h1 className="text-3xl font-bold underline">
-      Home
-    </h1>
+    <div className="my-3">
+      <Slider/>
+    </div>
   )
 }
