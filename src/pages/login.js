@@ -1,6 +1,6 @@
-import LoginHeader from "../components/ui/AuthUi/headerLogin";
-import InputField from "../components/ui/AuthUi/inputField";
-import Button from "../components/ui/AuthUi/button";
+import LoginHeader from "../components/ui/authUi/headerLogin";
+import InputField from "../components/ui/authUi/inputField";
+import Button from "../components/ui/authUi/button";
 
 export default function Login() {
   return (
