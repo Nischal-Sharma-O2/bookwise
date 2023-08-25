@@ -1,6 +1,6 @@
-import LoginHeader from "../components/ui/AuthUi/headerLogin";
-import Button from "../components/ui/AuthUi/button";
-import InputField from "../components/ui/AuthUi/inputField";
+import LoginHeader from "../components/ui/authUi/headerLogin";
+import Button from "../components/ui/authUi/button";
+import InputField from "../components/ui/authUi/inputField";
 
 export default function Register() {
   return (
@@ -9,14 +9,6 @@ export default function Register() {
         <LoginHeader title="Register Your Account" />
         <div className="mt-10 sm:mx-auto sm:w-full sm:max-w-sm">
           <form className="space-y-6" action="#" method="POST">
-            <InputField
-              label="Username"
-              id="username"
-              name="username"
-              type="text"
-              autoComplete="text"
-            />
-
             <InputField
               htmlFor="email"
               label="Email Address"
@@ -28,6 +20,14 @@ export default function Register() {
             <InputField
               htmlFor="password"
               label="Password"
+              id="password"
+              name="password"
+              type="password"
+              autoComplete="complete-password"
+            />
+            <InputField
+              htmlFor="password"
+              label="Confirm Password"
               id="password"
               name="password"
               type="password"
